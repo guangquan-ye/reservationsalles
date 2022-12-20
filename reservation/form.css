@@ -1,0 +1,108 @@
+body {
+  background-image: url(https://www.wework.com/ideas/wp-content/uploads/sites/4/2021/08/20201008-199WaterSt-2_v1-scaled.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0%;
+  font-family: 'Oswald', sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+
+}
+
+.main h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.main h2 {
+  color: white;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formulaire {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  width: 700px;
+  background-color: rgba(0, 0, 0, 0.3);
+
+
+}
+
+.formulaire p {
+  color: white;
+}
+
+.formulaire form {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5%;
+}
+
+input,
+select,
+textarea {
+  display: flex;
+  height: 40px;
+  width: 50%;
+  opacity: 0.7;
+  color: white;
+  background-color: black;
+}
+
+.formulaire h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.formulaire p {
+  display: flex;
+  justify-content: center;
+}
+
+form label {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+}
+
+.formulaire span {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.formulaire a {
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+}
+
+#button {
+  color: white;
+  border: 2px solid green;
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  display: block;
+  font-size: 1em;
+  font-weight: bold;
+  margin: auto;
+  padding: 1em 3em;
+}
+
+#button:hover {
+  color: black;
+  background: white;
+  border-radius: 10px;
+}

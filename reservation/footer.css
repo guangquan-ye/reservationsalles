@@ -1,0 +1,20 @@
+footer {
+    padding: 2%;
+}
+
+.linkg {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    justify-items: center;
+}
+
+.linkg a {
+    text-decoration: none;
+    color: white;
+}
+
+.linkg a:hover {
+    transform: scale(1.3);
+
+}
